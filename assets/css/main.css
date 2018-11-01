@@ -56,10 +56,7 @@ body{
 
 /* End of Products Styles!! */
 
-/*container-category*/
-.container-category{
-    padding-top: 4em;
-}
+
 
 /* Footer */
 #id-footer{
@@ -82,8 +79,7 @@ body{
 }
 .footer-div .footer-row div ul li{
     text-align: left;
-    order
 }
-.footer-p p{
+.footer-paragraph p{
     margin-top: 1em;
 }
