@@ -81,8 +81,8 @@
     <div class="row">
     <div class="col-md-12" id="featured-specs">
       <!-- <img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="" class="img-responsive"> -->
-      <figure><img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="The Next Generation Perkins Brailler" class="img-responsive">
-          <figcaption>The Next Generation Perkins Brailler</figcaption>
+      <figure><img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="The Next Generation Perkins Brailler" class="img-responsive" id="modernProductImage">
+          <figcaption id="modernProductHeading">The Next Generation Perkins Brailler</figcaption>
         </img></figure>
       <button type="button" class="btn btn-primary btn-spec" data-toggle="modal" data-target="#exampleModal"><a href="shopping-modal.html#"></a>Order Now!!</button>
     </div>
@@ -143,6 +143,7 @@
 </div>
 
 
+
 <style>
   .row-partner{
     margin-bottom: 4.5em;
@@ -184,12 +185,17 @@
               <img src="img/notetaker.png" alt="" class="img-responsive">
             </div>
             <div class="col-md-2">
-              <h6>Product Name</h6>
+              <h6 class="checkOutHeading">Product Name</h6>
+              <p class="productName"></p>
+              <style>
+                .checkOutHeading{
+                  font-weight: bold;
+                }
+              </style>
             </div>
-            <div class="col-md-3">
-              <h6>Product Details</h6>
-              <label for="product-details">Quantity</label>
-              <input type="num">
+            <div class="col-md-4">
+              <h6 class="checkOutHeading">Product Quality</h6>
+              <input type="num" class="col-md-2" placeholder="1">
             </div>
           </div>
         </div>
@@ -202,6 +208,13 @@
   </div>
 </div>
 
+<script>
+  var prodName = document.getElementById('productName');
+  var prodHeading = document.getElementById('modernProductHeading').textContent;
+  var name  = document.createTextNode(prodHeading);
+  console.log(prodHeading);
+  document.getElementById('productName').innerHTML = ;
+</script>
 
 
 <!-- Footer -->
