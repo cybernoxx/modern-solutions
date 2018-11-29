@@ -1,4 +1,0 @@
-ids for manipulating the dome
-
-#modernProductImage - image
-#modernProductHeading - heading 
