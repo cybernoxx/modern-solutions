@@ -96,14 +96,14 @@ div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-righ
 
 /* Footer */
 #id-footer{
-    background-color: #f4f4f4;
+    background-color: #000;
     padding-top: .1em;
 }
 .footer-div .footer-row div{
     text-align: center;
 }
 .footer-div .footer-row div a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .footer-div .footer-row div a:hover{
