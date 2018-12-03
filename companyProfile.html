@@ -23,7 +23,7 @@
 	<meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-    <title>Modern Solutions - Product Details.</title>
+    <title>Modern Solutions - Company Profile</title>
 
     <!-- css files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
@@ -46,7 +46,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a class="navbar-brand" href="#" style="color:#ffffff;">Modern Solutions
+       <a class="navbar-brand" href="index.html" style="color:#ffffff;">Modern Solutions
        </a>
      </div>
    
@@ -56,7 +56,7 @@
          <li><a href="index.html" id="b">Home</a></li>
          <li><a href="#">Medical Devices</a></li>
          <li><a href="javascript:">Assistant Devices</a></li>
-         <li><a href="companyProfile.html">Company Profile</a></li>
+         <li><a href="javascript:">Company Profile</a></li>
        </ul>
        <ul class="nav navbar-nav navbar-right" id="right">
 
@@ -77,41 +77,66 @@
 
 
 <!-- Main Section -->
-<div class="container" top="50px" id="singleProduct">
-	<div>
-		<h2>Braille Machine</h2>
+<div class="container" top="50px" id="company-Details">
+		<h2 class="text-center">Company Profile</h2>
 		<div class="container-fliud">
-			<div class="wrapper row">
-				<div class="preview col-md-6">
-					<img src="img/top items/Braille Machine.png" class="img-responsive" />
-				</div>
-				<div class="col-md-6">
-					<h4>Braille Machine</h4>
-					<p><b>CLASSIC PERKINS BRAILLER</b></p>
-					<p>Time Tested: Developed at Perkins in 1951, the Standard Perkins Brailler continues to be used worldwide. Durable and dependable, it can emboss 25 lines with 42 cells on an 11” x 8 ½ “ sheet of paper. Features</p>
-					<p><b>Features</b></p>
-					<p>
-					<ul>
-						<li>Standard Perkins Brailler comes in either blue or black.</li>
-						<li>Can emboss 25 lines with 42 cells on 11” x 8 ½ “ sheet of paper.</li>
-						<li>Includes dust cover and wooden eraser.</li>
-					</ul></p>
-					<h5><b>Price:</b>Ksh. 85,000/-</h5>
-					<label for="Quantity">Quantity:</label>
-					<input type="num" id="Quantity" value=""> x <b>85,000</b>
 
-					<br> <br>
-					<p><b>Estimated Cost <i id="cost"></i></b>
-					</p>
-					<br> <br>
-					<button class="btn btn-primary">Order now</button>
-				</div>
-			</div>
-		</div>
+		  <h3 class="text-center">About Us</h3>
+        <p>Modern Solutions is the leading supplier of anatomy charts, anatomical models, and anatomical posters, serving medical students, medical professionals, and educational organizations. Discover the widest selection of human skeleton models, patient education materials, fitness posters, veterinary models and educational charts available at unmatched discount prices with fast and friendly customer support!</p>
+
+        <p>Detailed anatomical charts, medical posters, anatomical models, dental charts, skeleton models, heart models, veterinary charts, alternative health products such as acupuncture charts and acupressure charts account for just a fraction of what we offer to healthcare institutions. Our new emergency medicine and nursing product categories complement our continually growing product selection.</p>
+
+        <h3 class="text-center">Modern Solutions seeks to differentiate itself from other providers by:</h3>
+
+        <li>Providing products that are integral to the marketing strategy of their client.</li>
+
+        <li>Understanding the client’s needs and through this understanding provide products that reflect positively on the client, delivering the required benefits while still being affordable, in good time and relevant.</li>
+
+        <li>Delivering these services in a manner that demonstrates professionalism and dedication.</li>
+
+        <li>Providing clients with the highest possible quality. <br>Our products have a warranty and engineers to service where applicable.</li>
+
+
+        <h3 class="text-center">Our Mission</h3>
+
+        <p>To promote access to modern assistive devices, technology, training, employment, and social opportunities by people with disabilities.</p>
+
+        <h3 class="text-center">Our Objectives</h3>
+
+        <ul>
+          <li>a. Provision of Affordable modern assistive devices and technology for persons with disabilities.</li>
+
+          <li>b. Advocacy for ratification of policies that promote inclusion, representation and access to opportunities for persons with disabilities.</li>
+
+          <li>c. Empowerment of persons with disabilities towards increased self-determination, self-reliance and self-advocacy.</li>
+
+          <li>d. Training of students and youth with disabilities on computers and computer software’s as well basic life skills.</li>
+        </ul>
+
+        <h3 class="text-center">List of Clients</h3>
+
+        <li>Ministry of Health</li>
+        <li>Medipharm Limited</li>
+        <li>Chogoria Hospital</li>
+        <li>Mathari Hospital</li>
+        <li>Kibara General Supplies</li>
+        <li>Mega scope Health Care</li>
+        <li>Save the Children</li>
+        <li>Narok pillar of Hope and Development</li>
+        <li>Kenyatta University</li>
+        <li>Handicap International</li> 
+        <li>Kilimanjaro Blind trust Africa</li>
+        <li>ADRA Somalia</li>
+        <li>CBM</li>
+        <li>ADD International Tanzania</li>
+        <li>Dar-Esalaam University</li>
+        <li>Care International</li>
+
+        <h3 class="text-center">Geographical Coverage</h3>
+        <p>The scope of our work and operations ensures exercise of this mandate, targeting individuals and groups across the whole nation and Africa.</p>
+      
 	</div>
-
 </div>
-
 
 
 
@@ -120,14 +145,21 @@
 body{
 	background-color: #d7d7d7;
 }
+ul{
+  list-style: none;
+}
   .preview img{
   	height: auto;
   	width: 100%;
   }
-  #singleProduct{
+  #company-Details{
   	padding-top: 4.29em !important;
-  	height: 80vh;
+  	height: auto;
   	margin-bottom: 50em;
+    font-size: 180%;
+  }
+  #company-Details h3{
+    font-weight: bolder;
   }
   .col-Footer li{
     list-style: none !important;
@@ -135,6 +167,9 @@ body{
   }
   .col-Footer h3{
     text-align: left;
+  }
+  .footer{
+    margin-top: 30em;
   }
 </style>
 <footer class="footer" id="id-footer">
@@ -144,7 +179,7 @@ body{
         <h3>Quick Links</h3>
         <li><a href="javascript:">Home</a></li>
         <li><a href="javascript:">About</a></li>
-        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="javascript:">Contact us</a></li>
       </div>
       <div class="col-md-4 col-Footer">
         <h3>Support</h3>
