@@ -35,7 +35,7 @@
 <body>
     
 
-    <!-- Navigation Bar -->
+  <!-- Navigation Bar -->
    
    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:#0068ba; margin-bottom: 0px; padding-bottom: 0;" >
     <div class="container">
@@ -47,17 +47,17 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a class="navbar-brand" href="#" style="color:#ffffff;">Modern Solutions
+       <a class="navbar-brand" id="nav" href="index.html" style="color:#ffffff;">Modern Solutions
        </a>
      </div>
    
      <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse navbar-ex1-collapse">
        <ul class="nav navbar-nav" id="bar">
-         <li><a href="#" id="b">Home</a></li>
-         <li><a href="#">Medical Devices</a></li>
-         <li><a href="javascript:">Visual Impairment</a></li>
-         <li><a href="javascript:">Company Profile</a></li>
+         <li><a href="index.html" id="b">Home</a></li>
+         <li><a href="javascript:" id="nav">Medical Devices</a></li>
+         <li><a href="javascript:" id="nav">Visual Impairment</a></li>
+         <li><a href="contact.html" id="nav">Contact Us</a></li>
        </ul>
        <ul class="nav navbar-nav navbar-right" id="right">
 
@@ -67,25 +67,36 @@
          </div>
          <button type="submit" class="btn btn-default" style="background-color:#0068ba; color: #fff; border-width: 2px;">Submit</button>
        </form>
-         <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+         <!-- <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li> -->
        </ul>
      </div><!-- /.navbar-collapse -->
     </div>
     <div id="advert" class="text-center" style="margin-bottom: 0px; padding-bottom: 0;">
         <p>Advert</p>
-      </div>
+    </div>
    </nav>
    
 <div class="featured-products effect6">
   <div class="container">
-    <h2 class="text-center">Featured Products</h2>
+    <h2 class="text-center" style="padding-bottom: 7px;">Amazing Products</h2>
     <div class="row">
-    <div class="col-md-12" id="featured-specs">
-      <!-- <img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="" class="img-responsive"> -->
+      <div class="col-md-4">
+        <img src="img/top items/braille-paper.jpg" alt="CLASSIC PERKINS BRAILLER" class="img-responsive" style="padding-bottom: 10px;">
+        <button type="button" class="btn btn-primary btn-spec">Order now</button>
+      </div>
+    <!-- <div class="col-md-12" id="featured-specs">
+       <img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="" class="img-responsive"> 
       <figure><img src="img/next_generation_perkins_brailler_top_bar.jpg" alt="The Next Generation Perkins Brailler" class="img-responsive" id="modernProductImage">
           <figcaption id="modernProductHeading">The Next Generation Perkins Brailler</figcaption>
         </img></figure>
-      <button type="button" class="btn btn-primary btn-spec" data-toggle="modal" data-target="#exampleModal"><a href="shopping-modal.html#"></a>Order Now!!</button>
+      <button type="button" class="btn btn-primary btn-spec" data-toggle="modal" data-target="#exampleModal"><a href="shopping-modal.html#"></a>Order Now!!</button> -->
+    <div class="col-md-4">
+      <img src="img/top items/Braille Machine.png" alt="CLASSIC PERKINS BRAILLER" class="img-responsive" style="padding-bottom: 70px;">
+      <button type="button" class="btn btn-primary btn-spec">Order now</button>
+    </div>
+    <div class="col-md-4">
+      <img src="img/top items/Foldable White Cane.png" alt="CLASSIC PERKINS BRAILLER" class="img-responsive" style="padding-bottom: 40px;">
+      <button type="button" class="btn btn-primary btn-spec">Order now</button>
     </div>
   </div>
   </div>
@@ -94,28 +105,28 @@
    
 <div class="container">
   <div class="row justify-content-md-center">
-    <h3 class="text-center">Our Products</h3>
+    <h3 class="text-center">Featured Products</h3>
      <div class="col-md-3 category-col">
-        <img src="img/top items/Braille Machine.png" alt="CLASSIC PERKINS BRAILLER" class="img-responsive">
-        <p><b>Description: </b>Standard Perkins Brailler comes in either blue or black.</p>
-        <p><b>Name: </b>CLASSIC PERKINS BRAILLER</p>
-        <p><b>Price: </b>Ksh. 85,000</p>
+        <img src="img/top items/next_generation_perkins_brailler_top_bar.jpg" alt="Next Generation Brailler" class="img-responsive">
+        <p #name><b>CLASSIC PERKINS BRAILLER</b></p>
+        <p #desc>Next generation perkins brailler comes in variant color choices.</p>
+        <!-- <p><b>Price: </b>Ksh. </p> -->
         <a class="btn btn-block" style="background-color:#0068ba; color: #ffffff;" href="singleproduct.html">Buy Now</a>
       </div>
 
       <div class="col-md-3 category-col">
         <img src="img/top items/universal Braille Kit.png" alt="Universal Braille Kit" class="img-responsive">
-        <p><b>Description: </b>Products for people with low vision</p>
-        <p><b>Name: </b>Universal Braille Kit</p>
-        <p><b>Price: </b>Ksh. 5,500</p>
+        <p #name><b>Universal Braille Kit</b></p>
+        <p #desc>Products for people with low vision</p>
+        <p><b>Ksh. 5,500</b></p>
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
         
       <div class="col-md-3 category-col">
         <img src="img/top items/scientific Talking Calculator.png" alt="Scientific Talking Calculator " srcset="" class="img-responsive">
-        <p><b>Description: </b>Products for people with low vision</p>
-        <p><b>Name: </b>Scientific Talking Calculator </p>
-        <p><b>Price: </b>Ksh. 40,000</p>
+        <p #name><b>Scientific Talking Calculator</b></p>
+        <p #desc>Products for people with low vision</p>
+        <p><b>Ksh. 40,000</b></p>
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
 
@@ -123,25 +134,25 @@
   <!-- Second Prod Row -->
       <div class="col-md-3 category-col">
         <img src="img/top items/Foldable White Cane.png" alt="Foldable White Cane" class="img-responsive">
-        <p><b>Description: </b>Walking cane products.</p>
-        <p><b>Name: </b>Foldable White Cane</p>
-        <p><b>Price: </b>Ksh. 1,000</p>
+        <p #name><b>Foldable White Cane</b></p>
+        <p #desc>Walking cane products</p>
+        <p><b>Ksh. 1,000</b></p>
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
 
       <div class="col-md-3 category-col">
         <img src="img/top items/Thermoforming Machine.png" alt="Thermoforming Machine" class="img-responsive">
-        <p><b>Description: </b>EZ-Form Braille & Tactile (Brailon®) Duplicator</p>
-        <p><b>Name: </b>Thermoforming Machine</p>
-        <p><b>Price: </b>Ksh. 400,000</p>
+        <p #name><b>Thermoforming Machine</b></p>
+        <pj #desc>EZ-Form Braille & Tactile (Brailon®) Duplicator</p>
+        <p><b>Ksh. 400,000</b></p>
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
         
       <div class="col-md-3 category-col">
         <img src="img/top items/Braillon Paper.png" alt="Braillon Paper" srcset="" class="img-responsive">
-        <p><b>Description: </b>Plastic-like paper used with Thermoform machines.</p>
-        <p><b>Name: </b>Braillon Paper</p>
-        <p><b>Price: </b>Ksh. 40,000</p>
+        <p #name><b>Braillon Paper</b></p>
+        <p #desc>Plastic-like paper used with Thermoform machines.</p>
+        <p><b>Ksh. 40,000</b></p>
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
   </div>
@@ -149,48 +160,48 @@
   <!-- Third Prod Row -->
       <div class="col-md-3 category-col">
         <img src="img/top items/adaptive_chess_for_the_blind.jpg" alt="Embosser" class="img-responsive">
-        <p><b>Description: </b>adaptive chess for the blind.</p>
-        <p><b>Name: Adaptive Chess for the Blind</b></p>
+        <p #name><b>Adaptive Chess for the Blind</b></p>
+        <p #desc>adaptive chess for the blind</p>
         <!-- <p><b>Price: </b>Ksh. 400,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
 
       <div class="col-md-3 category-col">
         <img src="img/top items/DuxBury-Braille-Translator-Software.jpg" alt="Duxbury Software Single User" class="img-responsive">
-        <p><b>Description: </b>Braille game card</p>
-        <p><b>Name: </b>Braille game card</p>
+        <p #name><b>Braille game card</b></p>
+        <p #desc>Braille game card</p>
         <!-- <p><b>Price: </b>Ksh. 65,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
         
       <div class="col-md-3 category-col">
         <img src="img/top items/braille-playing-card.jpg" alt="Embossing Paper" srcset="" class="img-responsive">
-        <p><b>Description: </b>Washable and Durable--with Large-Print and Braille.</p>
-        <p><b>Name: </b>Braille playing card</p>
+        <p #name><b>Braille playing card</b></p>
+        <p #desc>Washable and Durable--with Large-Print and Braille.</p>
         <!-- <p><b>Price: </b>Ksh. 7,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
   <!-- Fourth Prod Row -->
       <div class="col-md-3 category-col">
         <img src="img/top items/topaz-video-magnifier.png" alt="topaz-video-magnifier" class="img-responsive">
-        <p><b>Description: </b>Topaz video magnifier</p>
-        <p><b>Name: Topaz video magnifier</b></p>
+        <p #name><b>Topaz video magnifier</b></p>
+        <p #desc>Topaz video magnifier</p>
         <!-- <p><b>Price: </b>Ksh. 400,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
 
       <div class="col-md-3 category-col">
         <img src="img/top items/hd-magnifier-portable.png" alt="" class="img-responsive">
-        <p><b>Description: </b>Magnification and Camera: 2x - 14x continuous zoom</p>
-        <p><b>Name: Rubyx Portable HD video</b></p>
+        <p #name><b>Rubyx Portable HD video</b></p>
+        <p #desc>Magnification and Camera: 2x - 14x continuous zoom</p>
         <!-- <p><b>Price: </b>Ksh. 65,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
         
       <div class="col-md-3 category-col">
         <img src="img/top items/cubarithms.jpg" alt="Embossing Paper" srcset="" class="img-responsive">
-        <p><b>Description: </b> Maths teaching aid for visually impaired children Paper.</p>
-        <p><b>Name: Cubarithms Board</b></p>
+        <p #name><b>Cubarithms Board</b></p>
+        <p #desc>Maths teaching aid for visually impaired children Paper</p>
         <!-- <p><b>Price: </b>Ksh. 7,000</p> -->
         <button class="btn btn-block" style="background-color:#0068ba; color: #ffffff;">Buy Now</button>
       </div>
@@ -371,9 +382,9 @@
     <div class="row footer-row">
       <div class="col-md-4 col-Footer">  
         <h3>Quick Links</h3>
-        <li><a href="javascript:">Home</a></li>
-        <li><a href="javascript:">About</a></li>
-        <li><a href="javascript:">Contact us</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="companyProfile.html">About</a></li>
+        <li><a href="contact.html">Contact us</a></li>
       </div>
       <div class="col-md-4 col-Footer">
         <h3>Support</h3>
@@ -384,9 +395,9 @@
       <div class="col-md-4 col-Footer">
         <h3>Join us on</h3>
 
-          <li><a href="javascript:">Facebook</a></li>
-          <li><a href="javascript:">Twitter</a></li>
-          <li><a href="javascript:">Instagram</a></li>
+          <li><a target="_blank" href="http://facebook.com">Facebook</a></li>
+          <li><a  target="_blank" href="http://twitter.com">Twitter</a></li>
+          <li><a target="_blank" href="http://linkedin.com">linkedin</a></li>
     </div>
   </div>
     <div class="footer-paragraph">
@@ -395,7 +406,7 @@
 </footer>
 
     <!-- js scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>

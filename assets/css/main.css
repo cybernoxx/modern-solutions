@@ -10,7 +10,11 @@ body{
     color:#ffffff;
 }
 #bar li #b{
-    padding-left: 150px;
+    padding-left: 90px;
+    font-size: 18px;
+}
+#nav{
+  font-size: 18px;
 }
 #advert{
     background-color: #f15a29;
@@ -35,6 +39,10 @@ body{
 
 
 /*Our Products*/
+#name p{
+  font-size: 16px;
+  font-weight: 10px;
+}
 .cont-row{
     margin-bottom: 3em;
 }
@@ -96,7 +104,7 @@ div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-righ
 
 /* Footer */
 #id-footer{
-    background-color: #000;
+    background-color: #f15a29;
     padding-top: .1em;
 }
 .footer-div .footer-row div{
